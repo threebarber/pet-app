@@ -13,7 +13,6 @@ const RouteSwitch = () => {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/browse/:animal" element={<BrowsePage />} />
-
       </Routes>
     </BrowserRouter>
   );
